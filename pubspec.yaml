@@ -1,0 +1,82 @@
+name: task_zero
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  # GetX Ecosystem
+  get: 4.6.6
+  # Functional programming thingies
+  dartz: ^0.10.1
+  # shared preferences replacement (sync)
+  get_storage: 2.1.1
+  # implement a responsive layout by providing helper widgets and extensions.
+  responsive_sizer: ^3.3.0+1
+  # A collection of loading indicators animated with flutter.
+  flutter_spinkit: ^5.2.0
+  # The following give informations about app (version, app name, ...)
+  package_info_plus: ^5.0.1
+  # The following Get current device information from within the Flutter application.
+  device_info_plus: ^9.1.2
+  # A composable, Future-based library for making HTTP requests.
+  connectivity_plus: ^5.0.2
+  dio: ^5.4.1
+  # A flexible widget for user notification.
+  another_flushbar: ^1.12.30
+  fluttertoast: ^8.2.1
+  # cached network image
+  cached_network_image: ^3.3.1
+  flutter_animate: ^4.5.0
+  dotted_border: ^2.1.0
+#  flutter_credit_card: ^3.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  # run the following: flutter pub run flutter_launcher_icons
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  image_path: "assets/icons/icon-app-ios.png"
+  android: false
+  ios: true
+
+flutter:
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/icons/
+
+
+  # To add fonts to your application, add an assets section, like this:
+  fonts:
+    - family: Comfortaa
+      fonts:
+        - asset: assets/fonts/Comfortaa_Regular.ttf
+          weight: 400
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+          weight: 400
+    - family: Lovelyn
+      fonts:
+        - asset: assets/fonts/Lovelyn_Regular.ttf
+          weight: 400
+
